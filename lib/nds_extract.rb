@@ -12,7 +12,7 @@ def directors_totals(source) #director_name = total_gross
   end
 
   puts "total results: \n"
-  putsresult
+  puts result
   result
 end
 
