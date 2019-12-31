@@ -11,7 +11,8 @@ def directors_totals(source) #director_name = total_gross
     director_index += 1
   end
 
-  puts "total results: \n" result
+  puts "total results: \n"
+  putsresult
   result
 end
 
