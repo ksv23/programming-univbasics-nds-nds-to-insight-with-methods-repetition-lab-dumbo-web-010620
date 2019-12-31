@@ -10,7 +10,9 @@ def directors_totals(source) #director_name = total_gross
     result[director[:name]] = gross_for_director(director) #gross_for_director is function to show worldwide_gross
     director_index += 1
   end
- result
+
+  puts result
+  result
 end
 
 def gross_for_director(d)
